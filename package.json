@@ -1,0 +1,36 @@
+{
+  "name": "babel-preset-cs-common",
+  "version": "1.0.0",
+  "description": "develop for module",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register --require ./test/setup.js -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/change-soft/babel-preset-cs-common.git"
+  },
+  "author": {
+    "name": "ice",
+    "email": "670615769@qq.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/change-soft/babel-preset-cs-common/issues"
+  },
+  "homepage": "https://github.com/change-soft/babel-preset-cs-common#readme",
+  "keywords": [
+    "babel",
+    "babel-plugin",
+    "es7",
+    "common"
+  ],
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-plugin-syntax-object-rest-spread": "^6.13.0",
+    "babel-plugin-transform-class-properties": "^6.11.5",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-stage-0": "^6.5.0"
+  }
+}
